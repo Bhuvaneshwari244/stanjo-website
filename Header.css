@@ -1,0 +1,312 @@
+/* Header.jsx */
+.top-header{
+    border: 1px solid black;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.contact-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.socialmedia-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.image{
+    width: 20px;
+    height: 20px;
+}
+.bottom-header{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px;
+    font-size: small;
+}
+.dropdown{
+    display: none;
+    cursor: auto;
+}
+.products:hover .dropdown{
+    display: block;
+}
+
+/* Innovation.jsx */
+.Innovation-main{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-image: url(back1.jpg);
+    background-size: cover;
+}
+.Innovation-content{
+    padding: 30px;
+    border-radius: 12px;
+    background-color: rgba(169, 169, 169, 0.66);
+    margin: auto;
+}
+.Innovation-heading{
+    font-size: 40px;
+    margin: auto;
+    font-family: emoji;
+}
+.Innovative-buttons{
+    border-radius: 5px;
+    padding: 40px;
+    
+}
+.shop-button{
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.explore-button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Welcome.jsx */
+.Welcome-body{
+    display: flex;
+    margin: 20px;
+}
+.left-body{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+.left-body-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: emoji;
+}
+.right-body{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-image: url(back2.jpg);
+    background-size: cover;
+    margin: 10px;
+}
+.right-body-content{
+    border-radius: 12px;
+    background-color: rgba(245, 235, 235, 0.486);
+    padding: 40px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: emoji;
+}
+.left-body-heading{
+    font-size: 30px;
+    font-family: emoji; 
+}
+.left-body-button{
+    border-radius: 6px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin: auto;
+}
+
+/* LED.jsx */
+.LED-heading{
+    font-family: emoji;
+    font-size: 50px;
+    width: 60%;
+    margin: auto;
+}
+.LED-panel{
+    display: flex;
+    padding: 20px;
+}
+.left-LED{
+    width: 40%;
+}
+.right-LED{
+    width: 60%;
+    text-align: left;
+}
+.LED-right-Heading{
+    font-family: emoji;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+/* Preview.jsx */
+.Preview-heading{
+    font-size: 40px;
+    font-family: emoji;
+    width: 80%;
+    margin: auto;
+}
+.Preview-description{
+    padding: 10px;
+}
+.Preview-sizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+.Preview-min{
+    padding: 30px;
+    margin: 10px;
+    background-image: url(back3.jpg);
+    background-size: cover;
+}
+.Preview-min-content{
+    border: 1px solid pink;
+    border-radius: 4px;
+}
+.Preview-min-heading{
+    font-family: emoji;
+    font-size: 30px;
+    padding: 10px;
+}
+.Preview-medium{
+    padding: 30px;
+    margin: 10px;
+    background-image: url(back4.jpg);
+    background-size: cover;
+}
+.Preview-medium-content{
+    border: 1px solid pink;
+    border-radius: 4px;
+}
+.Preview-medium-heading{
+    font-family: emoji;
+    font-size: 30px;
+    padding: 10px;
+}
+.Preview-max{
+    padding: 30px;
+    margin: 10px;
+    background-image: url(back5.jpg);
+    background-size: cover;
+}
+.Preview-max-content{
+    border: 1px solid pink;
+    border-radius: 4px;
+}
+.Preview-max-heading{
+    font-family: emoji;
+    font-size: 30px;
+    padding: 10px;
+}
+.Preview-button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+.components-section{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+/* Choose.jsx */
+.choose-heading{
+    font-family: emoji;
+    font-size: 20px;
+    font-weight: bold;
+}
+.choose-section{
+    padding: 40px;
+}
+.why-choose-heading{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: emoji;
+}
+
+/* Light.jsx */
+.Light{
+    background-color: #0756A4;
+    padding: 10px;
+}
+.Light-button{
+    border-radius: 45PX;
+    padding: 10px;
+    color: #72b1ef;
+    font-weight: bold;
+}
+.Light-heading{
+    font-size: 50px;
+    font-family: emoji;
+    color: white;
+}
+.Light-content{
+    color: white;
+}
+
+/* Companies.jsx */
+.Companies-icons{
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+    justify-content: space-evenly;
+}
+.Companies-section{
+    padding: 30px;
+}
+.icons-images{
+    width: 100px;
+    height: 100px;
+}
+.Companies-heading{
+    font-family: emoji;
+    font-size: 40px;
+    width: 70%;
+    margin: auto;
+}
+.Companies-description{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+/* Footer.jsx */
+.Footer-section{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.Left-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 60%;
+}
+.Left-footer > h4{
+    font-size: 30px;
+}
+.footer-images{
+    display: flex;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+.Right-footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
